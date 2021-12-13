@@ -95,8 +95,7 @@ CREATE TABLE `users` (
 --
 
 INSERT INTO `users` (`users_id`, `fname`, `lname`, `email`, `city`, `state`, `zip`, `address`, `password`) VALUES
-(1, 'Test', 'User', 'test@email.com', 'cedar rapids', 'IA', 52404, '', '$2y$10$4QD/RprQtp0N109tx5SWuebemrI6zay9eG0DEvEvwSRnjB/BAlSxq'),
-(2, 'Mark', 'B', 'mark@email.com', 'cedar rapids', 'IA', 52404, '123 kirkwood st', '$2y$10$4QD/RprQtp0N109tx5SWuebemrI6zay9eG0DEvEvwSRnjB/BAlSxq');
+(1, 'Test', 'User', 'test@email.com', 'cedar rapids', 'IA', 52404, '', '$2y$10$4QD/RprQtp0N109tx5SWuebemrI6zay9eG0DEvEvwSRnjB/BAlSxq');
 
 --
 -- Indexes for dumped tables
