@@ -1,0 +1,160 @@
+@import url('https://fonts.googleapis.com/css?family=Gloria+Hallelujah');
+@import url('../fonts/chicken_fajitas.otf');
+
+
+* {
+    font-family: verdana, helvetica;
+    font-size: 1em;
+    color: #000000;
+}
+
+
+html {
+    overflow: hidden;
+    height: 100%;
+}
+
+
+body {
+    background-color: #ffe3ef;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+    overflow: auto; 
+}
+
+#container {
+    width: 90%;
+    height: 100%;
+    border-radius: 4px;
+    margin: 20px auto;
+    padding: 0px;
+    background-color: #DC143C;
+}
+
+header {
+    height: 225px;
+    width: 100%;
+    border-bottom: 1px solid #ff8abe;
+    margin: 0px;
+    padding: 0px;
+    background-image: url('../images/cherry-blossom-banner-with-logo.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+nav {
+    height: 45px;
+    width: 100%;
+    margin: 0px;
+    padding: 10px;
+    background-color: #DC143C;
+    border-bottom: 1px solid #ff8abe;
+}
+
+.product_heading {
+    background-color: pink;
+    height: 100px;
+    width: 100%;
+    margin: 0px;
+    padding: 10px;
+    font-size: 35px;
+    font-weight: bold;
+    text-align: center;
+    font-family: 'Gloria Hallelujah', cursive;
+}
+
+.row {
+    width: 100%;
+    min-height: 425px;
+    margin: 0px auto;
+    padding: 0px;
+    background-color: #fff;
+}
+
+.product_list {
+    float: left;
+    min-height: 225px;
+    width: 22%;
+    border: 1px solid #cccccc;
+    margin: 0px 1.5%;
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 8px;
+}
+
+.product_image {
+    margin: 0px;
+    padding: 0px;
+    height: 100%;
+    width: 100%;
+}
+
+.product_det {
+    height: 225px;
+    overflow: auto;
+    margin: 5px;
+    padding: 0px;
+    border-radius: 8px;
+}
+
+.product_img {
+    height: auto;
+    width: 100%;
+    border: 1px solid #cccccc;
+}
+
+
+table, tr, td {
+
+    border: 1px solid #000000;
+    margin: 15px;
+    padding: 5px 10px;
+    background-color: #ff8abe;
+}
+
+footer {
+    height: 125px;
+    width: 100%;
+    background-color: #DC143C;
+    border-top: 1px solid #FF00FF;
+}
+
+.signup {
+    width: 80%;
+    height: 100%;
+    border: 1px solid #cccccc;
+    border-radius: 6px;
+    padding: 1.5%;
+    margin: 20px auto;
+    background-color: #ffe3ef;
+}
+
+.new_font {
+    font-size: 35px;
+    text-align: center;
+    font-family: 'Gloria Hallelujah', cursive;
+}
+
+.new_font_2 {
+    font-size: 35px;
+    text-align: center;
+    font-family: chicken fajitas;
+}	
+
+.sign_in {
+    width: 20%;
+    float: right;
+    margin: 20px;
+}	
+
+.product_upload {
+    background-color: white;
+    width: 80%;
+    height: 100%;
+    border: 1px solid #cccccc;
+    border-radius: 6px;
+    padding: 1.5%;
+    margin: 20px auto; 
+}
